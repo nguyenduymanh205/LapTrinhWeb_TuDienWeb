@@ -67,12 +67,132 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\AddWord.aspx" />
+    <Content Include="Admin\Dashboard.aspx" />
+    <Content Include="Admin\EditWord.aspx" />
+    <Content Include="Admin\Import.aspx" />
+    <Content Include="Admin\ManageUsers.aspx" />
+    <Content Include="Admin\ManageWords.aspx" />
+    <Content Include="Admin\Statistics.aspx" />
+    <Content Include="Client\Default.aspx" />
+    <Content Include="Client\Favorites.aspx" />
+    <Content Include="Client\History.aspx" />
+    <Content Include="Client\Login.aspx" />
+    <Content Include="Client\Profile.aspx" />
+    <Content Include="Client\Register.aspx" />
+    <Content Include="Client\Search.aspx" />
+    <Content Include="Client\WordDetail.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Code\BLL\WordService.cs" />
     <Content Include="App_Code\BLL\SearchService.cs" />
+    <Compile Include="Admin\AddWord.aspx.cs">
+      <DependentUpon>AddWord.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddWord.aspx.designer.cs">
+      <DependentUpon>AddWord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EditWord.aspx.cs">
+      <DependentUpon>EditWord.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\EditWord.aspx.designer.cs">
+      <DependentUpon>EditWord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Import.aspx.cs">
+      <DependentUpon>Import.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Import.aspx.designer.cs">
+      <DependentUpon>Import.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ManageUsers.aspx.cs">
+      <DependentUpon>ManageUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ManageUsers.aspx.designer.cs">
+      <DependentUpon>ManageUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ManageWords.aspx.cs">
+      <DependentUpon>ManageWords.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ManageWords.aspx.designer.cs">
+      <DependentUpon>ManageWords.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Statistics.aspx.cs">
+      <DependentUpon>Statistics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Statistics.aspx.designer.cs">
+      <DependentUpon>Statistics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\Favorites.aspx.cs">
+      <DependentUpon>Favorites.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\Favorites.aspx.designer.cs">
+      <DependentUpon>Favorites.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\History.aspx.cs">
+      <DependentUpon>History.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\History.aspx.designer.cs">
+      <DependentUpon>History.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\Search.aspx.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\Search.aspx.designer.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\WordDetail.aspx.cs">
+      <DependentUpon>WordDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client\WordDetail.aspx.designer.cs">
+      <DependentUpon>WordDetail.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Utils\SecurityHelper.cs" />
     <Content Include="App_Code\DTO\Word.cs" />
     <Content Include="App_Code\DTO\User.cs" />
@@ -116,9 +236,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Admin\" />
     <Folder Include="AppData\" />
-    <Folder Include="Client\" />
     <Folder Include="Content\audio\" />
     <Folder Include="Content\css\" />
     <Folder Include="Content\images\" />

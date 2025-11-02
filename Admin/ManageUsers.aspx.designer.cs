@@ -7,29 +7,29 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LapTrinhWeb_TuDienWeb.MasterPage
+namespace LapTrinhWeb_TuDienWeb.Admin
 {
 
 
-    public partial class Client
+    public partial class ManageUsers
     {
 
         /// <summary>
-        /// form1 control.
+        /// btnEditUser control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.Button btnEditUser;
 
         /// <summary>
-        /// MainContent control.
+        /// btnDeleteUser control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
+        protected global::System.Web.UI.WebControls.Button btnDeleteUser;
     }
 }
