@@ -1,0 +1,255 @@
+﻿body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9fafb;
+    color: #333;
+}
+
+
+.navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+}
+
+.nav-link {
+    color: #555 !important;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+    .nav-link:hover {
+        color: #0d6efd !important;
+        text-decoration: underline;
+    }
+
+.btn-primary {
+    border-radius: 8px;
+    padding: 8px 18px;
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+.table-hover tbody tr:hover {
+    background-color: #f1f5ff;
+}
+
+.card h5 {
+    color: #0d6efd;
+}
+
+.card button, .card a {
+    transition: all 0.2s ease-in-out;
+}
+
+    .card button:hover, .card a:hover {
+        transform: scale(1.05);
+    }
+
+.form-container {
+    width: 400px;
+    background: #fff;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+    .form-container h2 {
+        color: #004aad;
+        margin-bottom: 10px;
+    }
+
+.subtitle {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s;
+}
+
+    .input-field:focus {
+        border-color: #0074d9;
+        outline: none;
+    }
+
+.btn-primary {
+    background: #0074d9;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+
+    .btn-primary:hover {
+        background: #005fa3;
+    }
+
+.form-footer {
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+    .form-footer a {
+        color: #0074d9;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+.profile-container {
+    width: 700px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.profile-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.profile-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #0074d9;
+    object-fit: cover;
+}
+
+.profile-info {
+    text-align: left;
+}
+
+    .profile-info p {
+        font-size: 1rem;
+        margin: 10px 0;
+    }
+
+.profile-actions {
+    margin-top: 25px;
+}
+
+.btn-secondary {
+    background: #ccc;
+    color: #333;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+    .btn-secondary:hover {
+        background: #bbb;
+    }
+
+.form-container {
+    max-width: 420px;
+    margin: 60px auto;
+    background: #fff;
+    padding: 40px 35px;
+    border-radius: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+    .form-container h2 {
+        color: #007bff;
+        font-weight: 700;
+        margin-bottom: 10px;
+        font-size: 28px;
+    }
+
+    .form-container .subtitle {
+        color: #6c757d;
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+
+
+.input-field {
+    width: 100%;
+    padding: 10px 14px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: all 0.25s ease;
+}
+
+    .input-field:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.15);
+        outline: none;
+    }
+
+
+.btn-primary {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+        transform: translateY(-2px);
+    }
+
+
+.form-footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #6c757d;
+}
+
+    .form-footer a {
+        color: #007bff;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 5px;
+    }
+
+        .form-footer a:hover {
+            text-decoration: underline;
+        }
+
+
+@media (max-width: 480px) {
+    .form-container {
+        margin: 40px 20px;
+        padding: 30px 20px;
+    }
+
+        .form-container h2 {
+            font-size: 24px;
+        }
+}
